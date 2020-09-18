@@ -7,14 +7,22 @@ _We will correct these exercises in class._
 ```js
 // Look at these expressions below and determine whether they evaluate to true or false
 
-1. true || false
+1. true || false 
+    A. true
 2. false && false
+    A. false
 3. 1 < 2 && 2 > 1
+    A. true
 4. 31 < 13 || 1 < 2 && 3 > 1
+    A. true  
 5. 400 <= 400 && 399 < 400 && (30 > 31 || 400 > 31)
+    A. true 
 6. true && false && false || false && true
+    A. false
 7. true && false || true || false
+    A. true
 8. true && false && false || false && true ? true && false && false || false && true : 1 < 2 && 2 > 1
+    A. true
 ```
 
 ---
@@ -28,8 +36,11 @@ let data = [0, [], [], [1, 2, 3, [4]]];
 ```
 
 1. How would you access the value `0`?
+`data[0]`
 2. How would you access the value `3`?
+`data[3][2]`
 3. How would you access the value `4`?
+`data[3][3][0]`
 
 ---
 
@@ -41,7 +52,14 @@ let data = [0, [], [], [1, 2, 3, [4]]];
 
 ```js
 { label: 'corn', price: 5.3 + '$' };
+This object has 2 properties:
+-It has a property with name `label` and value of `'corn'` of type string.;
+-It has a property with name `price` and value of `'5.3$'` of type string.
 { ISBN: 53532, isAvailable: true, author: 'Nakamoto' };
+This object has 3 properties:
+-It has a property with name `ISBN` and value of `53532` of type number.;
+-It has a property with name `isAvailable` and value of `true` of type boolean.;
+-It has a property with name `author` and value of `'Nakamoto'` of type string.;
 ```
 
 ---
@@ -56,9 +74,9 @@ let name = 'John';
 
 What is the value of the following expressions?
 
-1. person.name
-2. person['name']
-3. person[name]
+1. person.name is 'Bob'
+2. person['name'] is 'Bob'
+3. person[name] is unidentified
 
 ---
 
@@ -72,6 +90,6 @@ let key = 'name';
 
 What is the value of the following expressions:
 
-1. person.key
-2. person['key']
-3. person[key]
+1. person.key is unidentified
+2. person['key'] is unidentified
+3. person[key] is 'Bob'

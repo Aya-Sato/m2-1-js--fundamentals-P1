@@ -122,7 +122,9 @@ let anArray = ['bacon', undefined, 900, true];
 ```
 
 1. How do we access the value `900`?
+`anArray[2]`
 2. How do we access the value `true`?
+`anArray[3]`
 
 Arrays can be nested in arrays. Arrays can contain arrays that contain arrays that contain arrays that... _you get the idea_
 
@@ -142,10 +144,14 @@ let table = [
 
 What is the value of the following?
 
-1. What is the value of `table[0][0]`?
-2. What is the value of `table[5][5]`?
-3. What is the value of `table[2][3]`?
-4. How would we access the value `27`?
+1. What is the value of `table[0][0]`? 
+`1`
+2. What is the value of `table[5][5]`? 
+`36`
+3. What is the value of `table[2][3]`? 
+`16`
+4. How would we access the value `27`? 
+`table[4][2]`
 
 ---
 
