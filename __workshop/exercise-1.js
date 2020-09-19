@@ -83,16 +83,16 @@ function question6() {
   // e.g. console.log("6.1.", <TYPE>, <VALUE>)
 
   // 6.1. let name = 'bob';
-  console.log("6.1.", "type", "value");
+  console.log("6.1.", "string", "'bob'");
 
   // 6.2. let age = 45;
-  console.log("6.2.");
+  console.log("6.2.", "number", "45");
 
   // 6.3. let isMarried = false;
-  console.log("6.3.");
+  console.log("6.3.", "boolean", "false");
 
   // 6.4. let kids = [{name: 'Morty', age: 3}, {name: 'Summer', age: 7}]
-  console.log("6.4.");
+  console.log("6.4.", "object", "[{name: 'Morty', age: 3}, {name: 'Summer', age: 7}]");
 }
 
 // Once you are done type the following in the terminal to test your answer(s).
