@@ -68,10 +68,10 @@ function question5() {
   console.log("5.2. Number of elements (4)", ["array", "number", "string", "boolean"]);
 
   // 5.3. []
-  console.log("5.3. Number of elements (0)", ["empty value"]);
+  console.log("5.3. Number of elements (0)", []);
 
   // 5.4. [['romeo', 'juliet'], false]
-  console.log("5.4. Number of elements (2)", ["object", "boolean"]);
+  console.log("5.4. Number of elements (2)", ["array", "boolean"]);
 
   // 5.5. [{name: 'bob', age: 23}, {name: 'paul', age: 33}]
   console.log("5.5. Number of elements (2)", ["object", "object"]);
@@ -86,18 +86,17 @@ function question6() {
   console.log("6.1.", "string", "bob");
 
   // 6.2. let age = 45;
-  console.log("6.2.", "number", "45");
+  console.log("6.2.", "number", 45);
 
   // 6.3. let isMarried = false;
-  console.log("6.3.", "boolean", "false");
+  console.log("6.3.", "boolean", false);
 
   // 6.4. let kids = [{name: 'Morty', age: 3}, {name: 'Summer', age: 7}]
-  console.log("6.4.", "object", "[{name: 'Morty', age: 3}, {name: 'Summer', age: 7}]");
-}
+  console.log("6.4.", "array", [{name: 'Morty', age: 3, }, {name: 'Summer',age: 7}]);
 
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-1
-
+}
 module.exports = {
   question1,
   question2,
