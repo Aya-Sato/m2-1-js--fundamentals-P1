@@ -8,7 +8,7 @@ function exercise3() {
   // Edit only the code between the lines (below)
   // -----------------------------------------------------------------
   for (let number = 2; number < 7; number++) {
-    console.log(number);
+    console.log(number - 1);
   }
   // -----------------------------------------------------------------
   // Edit only the code between the lines (above)
