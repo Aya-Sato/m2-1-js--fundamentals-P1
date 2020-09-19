@@ -84,8 +84,13 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 6. }
 
 ```
-// Your solution here!
+2. let currentNum = 10;
+4. let min = 5;
 
+1. while (currentNum > min) {
+3.   console.log(currentNum);
+5.   currentNum = currentNum - 1;
+6. }
 ```
 
 ## Question 4: Reverse the string to check for hidden messages
