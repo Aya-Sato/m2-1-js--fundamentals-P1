@@ -70,7 +70,6 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 5. const thirdIndex = = 0;
 
 ```
-// Your solution here!
 
 ```
 
@@ -104,7 +103,14 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 7. const reversedString = reversedArray.join('');
 
 ```
-// Your solution here!
+4. const encodedMessage = 'gnidliub gruobuaF eht rednu deirub si erusaert ehT';
+3. const letterArray = encodedMessage.split('');
+1. const reversedArray = letterArray.reverse();
+7. const reversedString = reversedArray.join('');
+
+5. if (reversedString.includes('treasure')) {
+2.   console.log('Your message:', reversedString)
+6. }
 
 ```
 
