@@ -23,10 +23,10 @@ function question2() {
   // Add an 'x' between the ( ) to indicate that it's true.
 
   console.log("2.1. ( )"); /* 7 == 2    */
-  console.log("2.2. ( )"); /* 7 == 7    */
-  console.log("2.3. ( )"); /* 7 == '7'  */
-  console.log("2.4. ( )"); /* 7 != 0    */
-  console.log("2.5. ( )"); /* 7 !== '7' */
+  console.log("2.2. (x)"); /* 7 == 7    */
+  console.log("2.3. (x)"); /* 7 == '7'  */
+  console.log("2.4. (x)"); /* 7 != 0    */
+  console.log("2.5. (x)"); /* 7 !== '7' */
   console.log("2.6. ( )"); /* 7 != '7'  */
   console.log("2.7. ( )"); /* 7 != 7    */
 }
