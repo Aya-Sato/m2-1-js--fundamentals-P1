@@ -76,7 +76,7 @@ What is the value of the following expressions?
 
 1. person.name is 'Bob'
 2. person['name'] is 'Bob'
-3. person[name] is unidentified
+3. person[name] is undefined
 
 ---
 
@@ -90,6 +90,6 @@ let key = 'name';
 
 What is the value of the following expressions:
 
-1. person.key is unidentified
-2. person['key'] is unidentified
+1. person.key is undefined
+2. person['key'] is undefined
 3. person[key] is 'Bob'
