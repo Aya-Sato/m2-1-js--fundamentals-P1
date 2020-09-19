@@ -35,13 +35,13 @@ function question3() {
   // Question 3:
   // Which of the following expressions are truthy?
 
-  console.log("3.1. ( )"); /* !0         */
+  console.log("3.1. (x)"); /* !0         */
   console.log("3.2. ( )"); /* !1         */
-  console.log("3.3. ( )"); /* -1         */
+  console.log("3.3. (x)"); /* -1         */
   console.log("3.4. ( )"); /* !"hello!"  */
   console.log("3.5. ( )"); /* null       */
-  console.log("3.6. ( )"); /* !undefined */
-  console.log("3.7. ( )"); /* !NaN       */
+  console.log("3.6. (x)"); /* !undefined */
+  console.log("3.7. (x)"); /* !NaN       */
 }
 
 function question4() {
