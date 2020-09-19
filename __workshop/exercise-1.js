@@ -50,10 +50,10 @@ function question4() {
 
   console.log("4.1. ( )"); /* {}                                       */
   console.log("4.2. ( )"); /* { 'hello' }                              */
-  console.log("4.3. ( )"); /* { name: 'I am fruit' }                   */
-  console.log("4.4. ( )"); /* {'brand-name': 'Dior' }                  */
+  console.log("4.3. (x)"); /* { name: 'I am fruit' }                   */
+  console.log("4.4. (x)"); /* {'brand-name': 'Dior' }                  */
   console.log("4.5. ( )"); /* { brand-name: 'Channel' }                */
-  console.log("4.6. ( )"); /* { cool_name: 'bob' + ' Dylan', age: 25 } */
+  console.log("4.6. (x)"); /* { cool_name: 'bob' + ' Dylan', age: 25 } */
 }
 
 function question5() {
@@ -62,19 +62,19 @@ function question5() {
   // and the type of each element in the provided array.
 
   // 5.1. ['cat', 42, 'bird']
-  console.log("5.1. Number of elements ( )", ["type", "type", "type"]);
+  console.log("5.1. Number of elements (3)", ["string", "number", "string"]);
 
   // 5.2. [[], 24, 'hello', true]
-  console.log("5.2. Number of elements (4)", []);
+  console.log("5.2. Number of elements (4)", ["object", "number", "string", "boolean"]);
 
   // 5.3. []
-  console.log("5.3. Number of elements (0)", []);
+  console.log("5.3. Number of elements (0)", ["empty value"]);
 
   // 5.4. [['romeo', 'juliet'], false]
-  console.log("5.4. Number of elements (2)", []);
+  console.log("5.4. Number of elements (2)", ["object", "boolean"]);
 
   // 5.5. [{name: 'bob', age: 23}, {name: 'paul', age: 33}]
-  console.log("5.5. Number of elements (2)", []);
+  console.log("5.5. Number of elements (2)", ["object", "object"]);
 }
 
 function question6() {
