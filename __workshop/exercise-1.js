@@ -8,12 +8,12 @@ function question1() {
 
   console.log("1.1. ( )"); /* "I am a "Horse""    */
   console.log("1.2. ( )"); /* "I 'prefer' ducks'  */
-  console.log("1.3. ( )"); /* 'Yes, duck is nice' */
-  console.log("1.4. ( )"); /* "Ah, but I\'m vegan!" */
+  console.log("1.3. (x)"); /* 'Yes, duck is nice' */
+  console.log("1.4. (x)"); /* "Ah, but I\'m vegan!" */
   console.log("1.5. ( )"); /* 'You'll eat salad then' */
-  console.log("1.6. ( )"); /* 'Yes I\'ll eat salad' */
-  console.log("1.7. ( )"); /* "I'm happy to hear that!" */
-  console.log("1.8. ( )"); /* "\"Happy to hear " + 'that" ' + "he says!" */
+  console.log("1.6. (x)"); /* 'Yes I\'ll eat salad' */
+  console.log("1.7. (x)"); /* "I'm happy to hear that!" */
+  console.log("1.8. (x)"); /* "\"Happy to hear " + 'that" ' + "he says!" */
   console.log("1.9. ( )"); /* “Hello world!” */
 }
 
