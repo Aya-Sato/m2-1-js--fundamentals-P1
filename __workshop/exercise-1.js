@@ -65,7 +65,7 @@ function question5() {
   console.log("5.1. Number of elements (3)", ["string", "number", "string"]);
 
   // 5.2. [[], 24, 'hello', true]
-  console.log("5.2. Number of elements (4)", ["object", "number", "string", "boolean"]);
+  console.log("5.2. Number of elements (4)", ["array", "number", "string", "boolean"]);
 
   // 5.3. []
   console.log("5.3. Number of elements (0)", ["empty value"]);
@@ -83,7 +83,7 @@ function question6() {
   // e.g. console.log("6.1.", <TYPE>, <VALUE>)
 
   // 6.1. let name = 'bob';
-  console.log("6.1.", "string", "'bob'");
+  console.log("6.1.", "string", "bob");
 
   // 6.2. let age = 45;
   console.log("6.2.", "number", "45");
