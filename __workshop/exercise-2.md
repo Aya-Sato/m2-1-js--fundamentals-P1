@@ -70,7 +70,6 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 5. const thirdIndex = = 0;
 
 ```
-
 ```
 
 ## Question 3: Log all numbers from 10 to 5
@@ -125,7 +124,14 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 7. }
 
 ```
-// Your solution here!
+6. let count = 10;
+3. let total = 0;
+
+2. while (count > 0) {
+5.   console.log('The total is:', total)
+1.   total = total + count;
+4.   count = count - 1;
+7. }
 
 ```
 
