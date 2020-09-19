@@ -70,6 +70,11 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 5. const thirdIndex = = 0;
 
 ```
+2. const array = [[1, [2, 3]]];
+1. const firstIndex = 0;
+4. const secondIndex = 1;
+5. const thirdIndex = 0;
+3. console.log(array[firstIndex][secondIndex][thirdIndex])
 ```
 
 ## Question 3: Log all numbers from 10 to 5
