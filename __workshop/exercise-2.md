@@ -148,6 +148,14 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 9. }
 
 ```
-// Your solution here!
+8. let array = [1, 3, 7, 4, 5, 2, 1];
 
+4. for (let i = 0; i < array.length; i++) {
+5. let item = array[i];
+7. let numberToSearchFor = 5;
+2. let includesNumber;
+6.   if (item === numberToSearchFor) {
+3.   console.log('Array includes the number!')
+1.   }
+9. }
 ```
