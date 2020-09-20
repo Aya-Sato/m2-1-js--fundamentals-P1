@@ -23,6 +23,17 @@ function exercise7() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+for (num = 0; num <= 23; num++) {
+  if (num >= 22 || num <= 5) {
+    console.log(`It's ${num}h. Time to sleep!`);
+  }
+  else if (num === 6 || num === 12 || num === 18) {
+    console.log(`It's ${num}h. Time to eat!`);
+  }
+  else {
+    console.log(`It's ${num}h. Time to train!`);
+  }
+}
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
