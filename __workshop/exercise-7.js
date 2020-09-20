@@ -23,7 +23,7 @@ function exercise7() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
-for (num = 0; num <= 23; num++) {
+for (let num = 0; num <= 23; num++) {
   if (num >= 22 || num <= 5) {
     console.log(`It's ${num}h. Time to sleep!`);
   }
