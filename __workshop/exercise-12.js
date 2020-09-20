@@ -17,6 +17,17 @@ function exercise12() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  for (let num = 2; num <= 200; num++) {
+    let notPrime = false;
+    for (let i = 2; i <= num; i++) {
+      if (num % i === 0 && i !== num) {
+        notPrime = true;
+      }
+    }
+    if (notPrime === false) {
+      console.log(num);
+    }
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
